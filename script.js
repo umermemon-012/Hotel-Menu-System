@@ -15,11 +15,11 @@ let price = 0;
 
 if (order === "Pizza" || order === "pizza") {
   price = 126;
-}else if (order === "Burger" || order === "burger") {
+}else if (order === "Burger" , order === "burger") {
   price = 132;
-}else if (order === "Pasta" || order === "pasta") {
+}else if (order === "Pasta" , order === "pasta") {
   price = 35;
-}else if (order === "Salad" || order === "salad") {
+}else if (order === "Salad" , order === "salad") {
   price = 124;
 }else {
   alert("Invalid item! Please try again.");
